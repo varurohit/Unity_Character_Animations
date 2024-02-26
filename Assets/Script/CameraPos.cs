@@ -6,6 +6,7 @@ using UnityEngine;
 public class CameraPos : MonoBehaviour
 {
     public GameObject player;
+    public Transform pos;
     // Start is called before the first frame update
     void Start()
     {
