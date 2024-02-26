@@ -22,5 +22,6 @@ public class Animation : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         print("yes");
+        print("no");
     }
 }
