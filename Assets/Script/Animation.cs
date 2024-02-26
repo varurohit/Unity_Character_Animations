@@ -16,5 +16,11 @@ public class Animation : MonoBehaviour
     {
         demoAnim.SetFloat("Ver", Input.GetAxis("Vertical"));
         demoAnim.SetFloat("Hor", Input.GetAxis("Horizontal"));
+        demoAnim.SetBool("Jump", Input.GetKeyDown(KeyCode.Space));
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("yes");
     }
 }
